@@ -1,9 +1,10 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
-
 @dataclass
 class Roll:
     pins: int
+
+
 
 
 class Frame(ABC):
